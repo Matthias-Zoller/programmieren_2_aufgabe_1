@@ -8,4 +8,4 @@ Um das Projekt lokal zu nutzen, muss pdm installiert sein.
    git clone <DEIN_REPOSITORY_LINK>
    cd <PROJEKT_ORDNER>
 
-![Model](C:\git\programmieren_2_aufgabe_1\power_curve.png)
+![Model](power_curve.png)
