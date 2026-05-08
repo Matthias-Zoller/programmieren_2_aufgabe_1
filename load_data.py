@@ -1,6 +1,7 @@
 import numpy as np
 from sort import bubble_sort
 import matplotlib.pyplot as plt
+from power_curve import show_plot
 
 def load_data(file_path):
 
@@ -22,10 +23,3 @@ def load_data(file_path):
 
 
 
-if __name__ == "__main__":
-    data = load_data('activity.csv')
-    power_W = data['PowerOriginal']
-    print(power_W)
-    sorted_power_W = bubble_sort(power_W)
-    print(sorted_power_W[::-1])
-  
